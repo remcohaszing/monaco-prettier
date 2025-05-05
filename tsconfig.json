@@ -1,0 +1,11 @@
+{
+  "references": [{ "path": "./tsconfig.build.json" }],
+  "compilerOptions": {
+    "composite": true,
+    "module": "preserve",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es2018"
+  }
+}

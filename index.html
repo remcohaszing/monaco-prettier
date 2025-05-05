@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="<%= require('./icon.svg') %>" /> -->
+    <title>Monaco Prettier</title>
+    <meta name="color-scheme" content="light dark" />
+    <meta name="description" content="YAML support for Monaco editor" />
+    <meta name="theme-color" content="#42e3ff" />
+    <link rel="icon" href="./example/prettier.svg" />
+    <link rel="stylesheet" href="./example/example.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>Monaco Prettier</h1>
+      <a
+        href="https://npmjs.com/package/monaco-yaml"
+        class="nav-icon"
+        title="View monaco-yaml on npm"
+      >
+        <img
+          alt="npm icon"
+          height="32"
+          src="node_modules/@fortawesome/fontawesome-free/svgs/brands/npm.svg"
+          width="32"
+        />
+      </a>
+      <a
+        href="https://github.com/remcohaszing/monaco-yaml"
+        class="nav-icon"
+        title="View monaco-yaml on GitHub"
+      >
+        <img
+          alt="GitHub icon"
+          height="32"
+          src="node_modules/@fortawesome/fontawesome-free/svgs/brands/github.svg"
+          width="32"
+        />
+      </a>
+    </nav>
+    <main>
+      <select id="model-selection">
+        <option value="css">CSS</option>
+        <option value="html">HTML</option>
+        <option value="jsx" selected>JavaScript</option>
+        <option value="json">JSON</option>
+        <option value="md">Markdown</option>
+        <option value="tsx">TypeScript</option>
+      </select>
+      <div id="editor"></div>
+    </main>
+    <script src="./example/example.ts" type="module"></script>
+  </body>
+</html>

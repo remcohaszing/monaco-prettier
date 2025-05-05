@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 42 42" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    #r {
+      stroke: #cfd4d7
+    }
+    @media (prefers-color-scheme: dark) {
+      #r {
+        stroke: #4d616e
+      }
+    }
+  </style>
+  <g stroke-width="2" stroke-linecap="round">
+    <path stroke="#56b3b4" d="M1,1h24M1,9h14M31,9h2M9,13h2M17,21h16M1,25h8M1,37h4"/>
+    <path stroke="#ea5e5e" d="M1,5h6M25,13h10M1,21h2M13,25h8M1,41h10"/>
+    <path stroke="#f7b93e" d="M11,5h20M1,13h4M25,17h10M7,21h6M7,29h18M9,37h2"/>
+    <path stroke="#bf85bf" d="M19,9h8M1,17h10M25,25h6M1,29h2M1,33h10"/>
+    <path id="r" d="M29,1h12M35,5h6M37,9h4M15,13h6M39,13h2M15,17h6M39,17h2M37,21h4M35,25h6M29,29h4M37,29h4M15,33h4M23,33h18M15,37h8M27,37h2M33,37h8M15,41h12M31,41h10"/>
+  </g>
+</svg>
