@@ -4,7 +4,7 @@
   "description": "Use Prettier in Monaco editor",
   "homepage": "https://github.com/remcohaszing/monaco-prettier#readme",
   "bugs": "https://github.com/remcohaszing/monaco-prettier/issues",
-  "repository": "monaco-prettier.git",
+  "repository": "remcohaszing/monaco-prettier",
   "funding": "https://github.com/sponsors/remcohaszing",
   "license": "MIT",
   "author": "Remco Haszing <remcohaszing@gmail.com>",
