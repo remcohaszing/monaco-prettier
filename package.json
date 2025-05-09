@@ -2,7 +2,6 @@
   "name": "monaco-prettier",
   "version": "0.0.0",
   "description": "Use Prettier in Monaco editor",
-  "keywords": [],
   "homepage": "https://github.com/remcohaszing/monaco-prettier#readme",
   "bugs": "https://github.com/remcohaszing/monaco-prettier/issues",
   "repository": "monaco-prettier.git",
@@ -11,11 +10,18 @@
   "author": "Remco Haszing <remcohaszing@gmail.com>",
   "sideEffects": false,
   "type": "module",
+  "keywords": [
+    "monaco",
+    "monaco-editor",
+    "prettier"
+  ],
   "exports": {
     ".": "./dist/monaco-prettier.js",
     "./worker": "./dist/worker.js"
   },
-  "files": [],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prepack": "tsc --build"
   },
