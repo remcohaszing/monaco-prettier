@@ -1,6 +1,6 @@
 {
   "name": "monaco-prettier",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Use Prettier in Monaco editor",
   "homepage": "https://github.com/remcohaszing/monaco-prettier#readme",
   "bugs": "https://github.com/remcohaszing/monaco-prettier/issues",
