@@ -1,9 +1,10 @@
-import { type languages } from 'monaco-types'
-import { initialize } from 'monaco-worker-manager/worker'
-import { type Plugin } from 'prettier'
-import { format } from 'prettier/standalone'
+import type { languages } from 'monaco-types'
+import type { Plugin } from 'prettier'
 
-import { type configureMonacoPrettier } from './monaco-prettier.js'
+import type { configureMonacoPrettier } from './monaco-prettier.js'
+
+import { initialize } from 'monaco-worker-manager/worker'
+import { format } from 'prettier/standalone'
 
 /**
  * @internal

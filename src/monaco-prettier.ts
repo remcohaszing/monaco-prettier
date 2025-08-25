@@ -1,14 +1,9 @@
-import {
-  type CancellationToken,
-  type editor,
-  type IDisposable,
-  type languages,
-  type MonacoEditor
-} from 'monaco-types'
-import { createWorkerManager } from 'monaco-worker-manager'
+import type { CancellationToken, editor, IDisposable, languages, MonacoEditor } from 'monaco-types'
 import type * as prettier from 'prettier'
 
-import { type PrettierWorker } from './worker.js'
+import type { PrettierWorker } from './worker.js'
+
+import { createWorkerManager } from 'monaco-worker-manager'
 
 type Language =
   | 'css'
