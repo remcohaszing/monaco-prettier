@@ -14,6 +14,7 @@ type Language =
   | 'json'
   | 'jsonc'
   | 'markdown'
+  | 'mdx'
   | 'sass'
   | 'scss'
   | 'typescript'
